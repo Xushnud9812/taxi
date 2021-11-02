@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'taxi',
+    title: 'studyCenter',
     htmlAttrs: {
       lang: 'en'
     },
@@ -17,9 +17,11 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    'element-ui/lib/theme-chalk/index.css'
-  ],
+ 
+  css: [ 'element-ui/lib/theme-chalk/index.css', "@/assets/style/style.scss"],
+  styleResources: {
+    scss: ["@/assets/style/*.scss"]
+},
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [

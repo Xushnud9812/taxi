@@ -1,5 +1,5 @@
 {
-  "name": "taxi",
+  "name": "studyCenter",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,5 +14,10 @@
     "element-ui": "^2.15.2",
     "nuxt": "^2.15.7"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "sass": "^1.43.4",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
+  }
 }
